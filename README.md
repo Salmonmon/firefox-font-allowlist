@@ -1,9 +1,11 @@
 # firefox-font-allowlist
 
-a list of icon fonts which should not be overidden by firefox assembled from my personal use
+An extended list of symbolic/icon fonts which should not be overridden by Firefox when forcing websites to use a custom font.
 
-to use go to about:config in firefox (and forks therof), find "browser.display.use_document_fonts.icon_font_allowlist" and copy the contents of fontlist from this repository to replace it's value
+This is useful if you use modified fonts for text accessibility but want symbolic/icon fonts to show normally.
+Firefox has a default font list for this, but it misses quite a few fonts, so this adds in others I have found.
 
-this will only have an effect if font overide is on
+## Setup
+Go to about:config, find "browser.display.use_document_fonts.icon_font_allowlist" and copy the contents of "fontlist" to replace it's value.
 
-if you come across a website and font which is not in this list, make an issue and I'll add it
+I'm happy to add any fonts you find that I have missed if you send me the website in question
