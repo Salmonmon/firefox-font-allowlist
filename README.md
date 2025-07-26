@@ -9,3 +9,5 @@ Firefox has a default font list for this, but it misses quite a few fonts, so th
 Go to about:config, find "browser.display.use_document_fonts.icon_font_allowlist" and copy the contents of "fontlist" to replace it's value.
 
 I'm happy to add any fonts you find that I have missed if you send me the website in question
+
+a quick note on mathjax: font overide may not play well with mathjax scaling such as on pmc.ncbi.nlm.nih.gov articles, I fixed this by overiding the font scaling manually with stylus for the mjx-math css object
